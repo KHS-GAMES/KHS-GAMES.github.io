@@ -26,7 +26,7 @@ let poin = 0; // Tambahan: Variabel poin
 let gameTimer; // Variabel timer permainan
 
 const startGameTimer = () => {
-  let currentTime = 35; // Waktu awal, sesuaikan dengan durasi yang Anda inginkan
+  let currentTime = 20; // Waktu awal, sesuaikan dengan durasi yang Anda inginkan
   timer.innerHTML = currentTime;
 
   gameTimer = setInterval(() => {
@@ -237,6 +237,6 @@ window.onload = () => {
 
     // Mulai timer setelah modal hilang
     startGameTimer();
-  }, 5000); // Ubah angka ini sesuai keinginan Anda (dalam milidetik).
+  }, 3000); // Ubah angka ini sesuai keinginan Anda (dalam milidetik).
   loadGame();
 }
