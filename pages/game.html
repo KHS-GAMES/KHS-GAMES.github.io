@@ -10,19 +10,24 @@
   <script defer src="../js/game.js"></script>
   <style>
     .modal-content h2 {
-      margin-bottom: 10px; /* Tambahkan margin bawah 10px pada setiap elemen <p> dalam modal. */
+      margin-bottom: 10px;
+      /* Tambahkan margin bawah 10px pada setiap elemen <p> dalam modal. */
     }
+
     .modal-content p {
-      margin-bottom: 10px; /* Tambahkan margin bawah 10px pada setiap elemen <p> dalam modal. */
+      margin-bottom: 10px;
+      /* Tambahkan margin bawah 10px pada setiap elemen <p> dalam modal. */
     }
 
     .modal-content button {
-      margin-top: 10px; /* Tambahkan margin atas 10px pada setiap tombol dalam modal. */
+      margin-top: 10px;
+      /* Tambahkan margin atas 10px pada setiap tombol dalam modal. */
     }
 
     /* Memisahkan tombol "Lanjut Bermain" dan "Keluar" dengan garis vertikal (||) */
-    .modal-content button + button {
-      margin-left: 10px; /* Tambahkan margin kiri 10px pada tombol kedua (yang kedua). */
+    .modal-content button+button {
+      margin-left: 10px;
+      /* Tambahkan margin kiri 10px pada tombol kedua (yang kedua). */
     }
 
     .modal-content button {
@@ -39,8 +44,6 @@
       background-color: #8f1d1d;
       border: 2px solid #f56b6b;
     }
-
-
   </style>
 
   <title>Memory Game</title>
@@ -49,7 +52,7 @@
 <body>
   <div class="modal" id="modal">
     <div class="modal-content">
-      <p>Ayo cocokkan gambarnya sebelum waktu habis! waktu kamu 35 detik!</p>
+      <p>Ayo cocokkan gambarnya sebelum waktu habis! waktu kamu 20 detik!</p>
     </div>
   </div>
   <div id="victoryModal" class="modal">
@@ -76,8 +79,8 @@
       <button id="timeoutRestartButton">Keluar</button>
     </div>
   </div>
-  
-  
+
+
   <main>
     <header>
       <span class="player"></span>
